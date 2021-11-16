@@ -1,7 +1,7 @@
 jobs:
   CloneRepo:
     resources:
-      instance-type: C3
+      instance-type: Free-GPU
     uses: git-checkout@v1
     with:
       url: https://github.com/gradient-ai/mnist-sample.git
